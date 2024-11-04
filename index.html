@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Розклад пар</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <hr class="custom-line1">
+    <hr class="custom-line">
+    <h1>Розклад пар</h1>
+    <div class="form-container">
+        <label for="group">Виберіть групу:</label>
+        <select id="group">
+        </select>
+
+        <label for="date">Виберіть дату:</label>
+        <input type="date" id="date">
+
+        <button id="search">Показати розклад</button>
+    </div>
+
+<div id="data" class="data-table"></div>
+
+</div>
+<hr class="custom-line">
+<div class="button-container">
+    <button id="to-main-page" class="nav-button"> • Перейти до розкладу груп</button>
+    <div class="vertical-line"></div>
+    <div class="vertical-line"></div>
+    <button id="to-teacher-page" class="nav-button">Перейти до розкладу викладача •</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
